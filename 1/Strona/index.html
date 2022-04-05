@@ -1,0 +1,184 @@
+<style>
+    *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Lato; 
+}
+
+h1{
+    text-align: center;
+    padding-top: 20px;
+}
+p{
+    text-align: center;
+    padding-top: 10px;
+}
+h3{
+    text-align: center;
+}
+body{
+    background-image: url(bcpizza.jpg);
+}
+#container{
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #FFF0C6;
+}
+article h1{
+    text-align: center;
+}
+.left{
+    float: left;
+}
+.right{
+    padding-top: 100px;
+}
+.pizza{
+    width: 1000px;
+    height: 200px;
+}
+.ingridiens{
+    padding: 100px;   
+    background-color: #FFE7A7;
+    text-align: center;
+}
+.additivesClass{
+    padding: 20px;  
+    border-width: 10px;
+    border-color: red;
+}
+.delivery{
+   padding: 20px;     
+}
+article{
+      height: 250px;  
+}
+footer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+</style>
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="UTF-8">
+    <meta name="vievpornt" content="width=device-width, initial-scale=1.0">
+    <title>Best Pizza</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato&amp;subset=latin-ext" rel="stylesheet">
+</head>
+<body>
+    <div id="container">
+        <section>
+            <article>
+                <h1>Best Pizza</h1>
+                <p><a href="https://pl.wikipedia.org/wiki/Pizza" target="_blank"><img class="left pizza" src="pizza.jpg" alt="face"></a></p>
+                <h1>Create your own pizza</h1>
+                <p>Create the best pizza you've ever had</p>
+            </article>
+            <div class="ingridiens">
+                <form>
+                <select name="ing" id="ing1">
+                    <option value="blank">blank</option>
+                    <option value="salami">salami</option>
+                    <option value="peperoni">peperoni</option>
+                    <option value="cheese">cheese</option>
+                    <option value="onion">onion</option>
+                    <option value="tomato">tomato</option>
+                    <option value="mushrooms">mushrooms</option>
+                    <option value="pepper">pepper</option>
+                </select>
+                    <br/>
+                <select name="ing" id="ing2">
+                    <option value="blank">blank</option>
+                    <option value="salami">salami</option>
+                    <option value="peperoni">peperoni</option>
+                    <option value="cheese">cheese</option>
+                    <option value="onion">onion</option>
+                    <option value="tomato">tomato</option>
+                    <option value="mushrooms">mushrooms</option>
+                    <option value="pepper">pepper</option>
+                </select>
+                    <br/>
+                <select name="ing" id="ing3">
+                    <option value="blank">blank</option>
+                    <option value="salami">salami</option>
+                    <option value="peperoni">peperoni</option>
+                    <option value="cheese">cheese</option>
+                    <option value="onion">onion</option>
+                    <option value="tomato">tomato</option>
+                    <option value="mushrooms">mushrooms</option>
+                    <option value="pepper">pepper</option>
+                </select>
+                    <br/>
+                <select name="ing" id="ing4">
+                    <option value="blank">blank</option>
+                    <option value="salami">salami</option>
+                    <option value="peperoni">peperoni</option>
+                    <option value="cheese">cheese</option>
+                    <option value="onion">onion</option>
+                    <option value="tomato">tomato</option>
+                    <option value="mushrooms">mushrooms</option>
+                    <option value="pepper">pepper</option>
+                </select>
+                    <br/>
+                <select name="ing" id="ing5">
+                    <option value="blank">blank</option>
+                    <option value="salami">salami</option>
+                    <option value="peperoni">peperoni</option>
+                    <option value="cheese">cheese</option>
+                    <option value="onion">onion</option>
+                    <option value="tomato">tomato</option>
+                    <option value="mushrooms">mushrooms</option>
+                    <option value="pepper">pepper</option>
+                </select>
+                    <br/>
+                <select name="ing" id="ing6">
+                    <option value="blank">blank</option>
+                    <option value="salami">salami</option>
+                    <option value="peperoni">peperoni</option>
+                    <option value="cheese">cheese</option>
+                    <option value="onion">onion</option>
+                    <option value="tomato">tomato</option>
+                    <option value="mushrooms">mushrooms</option>
+                    <option value="pepper">pepper</option>
+                </select>
+                    <br/>
+                <select name="ing" id="ing7">
+                    <option value="blank">blank</option>
+                    <option value="salami">salami</option>
+                    <option value="peperoni">peperoni</option>
+                    <option value="cheese">cheese</option>
+                    <option value="onion">onion</option>
+                    <option value="tomato">tomato</option>
+                    <option value="mushrooms">mushrooms</option>
+                    <option value="pepper">pepper</option>
+                </select>
+                    <br/>
+                    <div class="additivesClass">
+                    <label for="dbcheese"><input id="dbcheese" type="checkbox" name="additives" value="dbcheese" checked> Double cheese</label>
+                    <br/>
+                    <label for="hsouce"><input id="hsouce" type="checkbox" name="additives" value="hsouce"> Hot souce</label>
+                    <br/>
+                    <label for="msouce"><input id="msouce" type="checkbox" name="additives" value="msouce"> Mild souce</label>
+                    </div>
+                    <br>
+                    <div class="delivery">
+                    <label for="home-delivery"><input id="home-delivery" type="radio" name="deliverytype" value="home-delivery" checked> Home devilery</label>
+                    <br/>
+                    <label for="pick-up"><input id="pick-up" type="radio" name="deliverytype" value="pick-up"> Pickup at the point</label>
+                    </div>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </section>
+        <footer>
+            <h5>Best pizza</h5>
+        </footer>
+    </div> 
+</body>
+</html>
