@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "name": "Grupa1",
+        "people": "Janusz, Andrzej",
+        "description": "opis",
+        "subject": "przedmiot"
+      },
+      {
+        "id": 2,
+        "name": "Grupa2",
+        "people": "Janusz, Andrzej",
+        "description": "sipo",
+        "subject": "przedmiot"
+      }
+]

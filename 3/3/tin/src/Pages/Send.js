@@ -1,10 +1,12 @@
 import PopupWindow from "./PopupWindow";
 import { useState } from "react";
+import { useRef } from "react";
 
 
 const Send = () => {
     
     const [button,setButton] = useState(false);
+    console.log("Rendered Send");
 
     return(
         <div>

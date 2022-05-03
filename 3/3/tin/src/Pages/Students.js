@@ -8,6 +8,8 @@ const Students = (props) =>{
 
     const [searchTerm, setSearchDescription] = useState('');
 
+    const pictureUrl = "https://picsum.photos/70/100";
+
     return (
       <div class="app-container">
         <CreateNotice students={students} setStudents={setStudents}/>
@@ -19,7 +21,6 @@ const Students = (props) =>{
             setSearchDescription(event.target.value);
           }} 
           />
-  
           {students.filter((val)=>{
             if(searchTerm == ""){
               return val;
@@ -32,9 +33,14 @@ const Students = (props) =>{
             }
           }).map((val, key) => {
             return (
+              <a href="/student">
             <div class="student" className="student" key={key}>
+              <img
+                src = {pictureUrl}
+              />
                <p>{val.name}</p><p>{val.description}</p><p>{val.tag}</p><p>{val.subject}</p> 
                </div>
+               </a>
             );
           })}
       </div>
